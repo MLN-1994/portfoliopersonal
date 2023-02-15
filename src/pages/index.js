@@ -1,6 +1,7 @@
+import Skills from '@/components/Skills'
 import Head from 'next/head'
+import Title from "../components/Title"
 
-import { Inter } from '@next/font/google'
 
 
 
@@ -15,8 +16,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="">
-        
+          <div className='mainbg text-white'>.</div>
+          <div className='mainbg layer1'>-</div>
+          <div className='mainbg layer2'>.</div>
       </main>
+
+      <div className="">
+        <Title/>
+      </div>
+      <Skills/>
     </>
   )
 }

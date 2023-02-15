@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Html",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Html5_dise%C3%B1o_web.png",
+    "description": "Maquetado de web con html5"
+  },
+  {
+    "name": "Css",
+    "image": "",
+    "description": "Diseños responsivos, manejo de freamworks como Bootstrap y TailWindCss"
+  },
+  {
+    "name": "Html",
+    "image": "",
+    "description": "Maquetado de web con html5"
+  }
+]
