@@ -6,11 +6,31 @@
   },
   {
     "name": "Css",
-    "image": "",
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968242.png",
     "description": "Diseños responsivos, manejo de freamworks como Bootstrap y TailWindCss"
   },
   {
     "name": "JavaScript",
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968292.png",
+    "description": "Maquetado de web con html5"
+  },
+  {
+    "name": "React",
+    "image": "https://cdn-icons-png.flaticon.com/512/1183/1183672.png",
+    "description": "Maquetado de web con html5"
+  },
+  {
+    "name": "Git & Github",
+    "image": "https://cdn-icons-png.flaticon.com/512/5968/5968846.png",
+    "description": "Maquetado de web con html5"
+  },
+  {
+    "name": "Firebase",
+    "image": "https://cdn-icons-png.flaticon.com/512/2232/2232137.png",
+    "description": "Uso de DataBase y Logins"
+  },
+  {
+    "name": "Vercel",
     "image": "",
     "description": "Maquetado de web con html5"
   }

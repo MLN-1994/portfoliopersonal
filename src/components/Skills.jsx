@@ -15,16 +15,13 @@ function Skills() {
 
   return (
     <>
-    <div className="">
+    <div className="flex flex-nowrap">
 
       {datos.map((dato, index) => (
 
         <div className="border" key={index}>
-
           <p>{dato.name}</p>
-          <p>{dato.image}</p>
-          <p>{dato.description}</p>
-
+          <img src={dato.image} alt="" />
         </div>
 
       ))}
