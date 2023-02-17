@@ -4,13 +4,14 @@ import dataSkills from "../data/dataSkills.json";
 import Modal from "./Modal";
 
 function Skills() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
+  const [activeModalIndex, setActiveModalIndex] = useState(-1);
 
-  function handleOpenModal() {
-    setIsModalOpen(true);
+  function handleOpenModal(index) {
+    setActiveModalIndex(index);
   }
+
   function handleCloseModal() {
-    setIsModalOpen(false);
+    setActiveModalIndex(-1);
   }
 
   const [datos, setDatos] = useState([]);
@@ -32,20 +33,25 @@ function Skills() {
             key={index}
           >
             <div className=" ">
+              
               <img className="w-16 mb-4 " src={dato.image} alt="" />
+              
               <div className="flex justify-center">
                 <p className="text-black absolute bottom-0 font-bold opacity-70">
                   {dato.name}
                 </p>
               </div>
-              <div className="">
-                <button onClick={handleOpenModal}>+</button>
-                <Modal isOpen={isModalOpen} onClose={handleCloseModal}>
-                  <p className="">Hola</p>
+             
+              <div className=" absolute bottom-1 left-1">
+                <button className="bg-red-400 rounded-full h-8 w-8 " onClick={() => handleOpenModal(index)}>+</button>
+                <Modal  isOpen={activeModalIndex === index} onClose={handleCloseModal}>
+                  <p className="text-black bold">{dato.description}</p>
                 </Modal>
               </div>
+              
             </div>
           </div>
+          
         ))}
       </div>
     </>

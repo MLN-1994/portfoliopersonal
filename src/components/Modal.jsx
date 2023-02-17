@@ -6,11 +6,13 @@ function Modal({isOpen, onClose, children}) {
 
     return(
         <>
-            <div className="">
+            <div className="absolute shadow-2xl  rounded bg-neutral-50 w-48 h-24 z-50 ">
+                
                 <button className="" onClick={onClose}>
                     X
                 </button>
                 {children}
+                
             </div>
         </>
     )
