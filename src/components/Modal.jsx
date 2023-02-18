@@ -5,7 +5,7 @@ function Modal({ isOpen, onClose, children }) {
 
   return (
     <>
-      <div className="absolute top-10 shadow-2xl  rounded bg-neutral-50 w-48 h-24 z-50 p-2 border">
+      <div className="absolute top-10 shadow-2xl  rounded bg-neutral-50 w-64 h-32 p-2 border bg-opacity-100 z-0">
         <button className="text-gray-500" onClick={onClose}>
           X
         </button>
