@@ -33,27 +33,35 @@ function Skills() {
             key={index}
           >
             <div className=" ">
-              
               <img className="w-16 mb-4 " src={dato.image} alt="" />
-              
+
               <div className="flex justify-center">
                 <p className="text-black absolute bottom-0 font-bold opacity-70">
                   {dato.name}
                 </p>
               </div>
-             
+
               <div className=" absolute bottom-1 left-1">
-                <button className="bg-red-400 rounded-full h-8 w-8 " onClick={() => handleOpenModal(index)}>+</button>
-                <Modal  isOpen={activeModalIndex === index} onClose={handleCloseModal}>
+                <button
+                  className="bg-gray-600 text-white font-bold hover:bg-gray-800 transition ease-in 800 rounded-full h-8 w-8 "
+                  onClick={() => handleOpenModal(index)}
+                >
+                  +
+                </button>
+                <Modal
+                  isOpen={activeModalIndex === index}
+                  onClose={handleCloseModal}
+                >
                   <p className="text-black bold">{dato.description}</p>
                 </Modal>
               </div>
               
             </div>
+            
           </div>
-          
         ))}
       </div>
+      
     </>
   );
 }

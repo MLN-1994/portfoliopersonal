@@ -16,16 +16,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="">
-          <div className='mainbg text-white'>.</div>
-          <div className='mainbg layer1'>-</div>
-          <div className='mainbg layer2'>.</div>
+        <div className='mainbg text-white'>.</div>
+        <div className='mainbg layer1'>-</div>
+        <div className='mainbg layer2'>.</div>
       </main>
 
-      <div className="">
-        <Title/>
-      </div>
-      <Skills/>
-      
+
+      <Title />
+      <Skills />
+
     </>
   )
 }

@@ -4,11 +4,9 @@
 
 
 
-body{
-  color: white;
-}
+
   .mainbg{
-    background-image: linear-gradient(-60deg, rgb(49, 52, 235) 50%, #0199ff 50%);
+    background-image: linear-gradient(-60deg, rgb(195, 205, 219) 50%, #dce5eb 50%);
     animation: slide 3s ease-in-out infinite alternate;
     position: fixed;
     top: 0;
