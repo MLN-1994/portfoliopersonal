@@ -36,7 +36,7 @@ function Skills() {
               <img className="w-16 mb-4 " src={dato.image} alt="" />
 
               <div className="flex justify-center">
-                <p className="text-black absolute bottom-0 font-bold opacity-70">
+                <p className="text-black absolute bottom-0 font-bold opacity-90">
                   {dato.name}
                 </p>
               </div>
@@ -52,13 +52,14 @@ function Skills() {
                   isOpen={activeModalIndex === index}
                   onClose={handleCloseModal}
                 >
-                  <p className="text-black bold">{dato.description}</p>
+                  <p className="text-black font-semibold">{dato.description}</p>
                 </Modal>
               </div>
               
             </div>
             
           </div>
+          
         ))}
       </div>
       
