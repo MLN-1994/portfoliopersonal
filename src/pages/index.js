@@ -1,3 +1,4 @@
+import PersonalInfo from '@/components/PersonalInfo'
 import Skills from '@/components/Skills'
 import Head from 'next/head'
 import Title from "../components/Title"
@@ -21,8 +22,9 @@ export default function Home() {
         <div className='mainbg layer2'>.</div>
       </main>
 
-
+      
       <Title />
+      <PersonalInfo/>
       <Skills />
 
     </>

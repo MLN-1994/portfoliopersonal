@@ -7,7 +7,7 @@
 
 
   .mainbg{
-    background-image: linear-gradient(-60deg, rgb(132, 172, 228) 50%, #eceaf1 50%);
+    background-image: linear-gradient(-60deg, rgb(207, 208, 209) 50%, #eceaf1 50%);
     animation: slide 3s ease-in-out infinite alternate;
     position: fixed;
     top: 0;
