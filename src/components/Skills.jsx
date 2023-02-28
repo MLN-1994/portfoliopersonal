@@ -24,9 +24,9 @@ function Skills() {
 
   return (
     <>
-      <div className="flex justify-center text-3xl px-2 py-2 my-6">Skills</div>
+      <div className="flex justify-center text-3xl px-2 py-2 my-6 font-thin opacity-50">Mis herramientas</div>
 
-      <div className="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-4  xl:grid-cols-7 gap-2 item-center p-2 m-2 z-25 ">
+      <div className="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-4  xl:grid-cols-7 gap-2 item-center p-2 mx-16 z-25 ">
         {datos.map((dato, index) => (
           <div
             className=" backdrop-filter bg-neutral-50 drop-shadow-2xl  opacity-70 rounded  hover:opacity-100 shadow-xl w-42 h-42  flex justify-center items-center p-4 transition ease-in 800"
