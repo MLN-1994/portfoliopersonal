@@ -8,7 +8,7 @@ export default function PersonalInfo() {
       </div>
 
       <div className="flex justify-center my-6 mx-4">
-        <div className="  p-4  xl:w-6/12 h-64 overflow-auto backdrop-filter  drop-shadow-4xl  opacity-70 rounded  hover:opacity-100 shadow-xl">
+        <div className="   p-4   h-64 overflow-auto backdrop-filter  drop-shadow-4xl text-black  opacity-70 rounded  hover:opacity-100 shadow-xl">
           <p className="p-4  whitespace-pre-line font-semibold">
             Soy un desarrollador frontend junior de 28 años apasionado por crear
             interfaces de usuario atractivas y funcionales. Me encanta aprender

@@ -7,6 +7,7 @@ import Title from "../components/Title"
 
 
 
+
 export default function Home() {
   return (
     <>
@@ -26,7 +27,7 @@ export default function Home() {
       <Title />
       <PersonalInfo/>
       <Skills />
-
+   
     </>
   )
 }
