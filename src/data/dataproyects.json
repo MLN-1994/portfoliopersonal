@@ -1,0 +1,26 @@
+[
+    {
+        "title": "E-comerce React",
+        "information":"Proyecto  realizado para la entrega final del curso de React de la plataforma CoderHouse. El proyecto fue iniciado con Vite,  sus estilos hechos mediante Tailwindcss y el proyecto fue subido a la nube mediante Vercel",
+        "image":"",
+        "id":"1",
+        "link":"https://coder-e-comerce-8ow3.vercel.app/",
+        "github":"https://github.com/MLN-1994/coder-e-comerce"
+    },
+    {
+        "title": "E-comerce JS",
+        "information":"Proyecto  realizado para la entrega final del curso de JavaScript de la plataforma CoderHouse. Fue realizado con vanila JavaScript y Css para los estilos",
+        "image":"",
+        "id":"2",
+        "link":"--",
+        "github":""
+    },
+    {
+        "title": "Menu",
+        "information":"Menu realizado como modo de practica, utilizando html5, css, bootstrap y javascript, ademas el protecto puede escanearse mediante un codigo qr",
+        "image":"",
+        "id":"3",
+        "link":"",
+        "github":""
+    }
+]

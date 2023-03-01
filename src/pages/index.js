@@ -1,5 +1,6 @@
 import PersonalInfo from '@/components/PersonalInfo'
 import Skills from '@/components/Skills'
+import SocialNetworks from '@/components/SocialNetworks'
 import Head from 'next/head'
 import Title from "../components/Title"
 
@@ -17,13 +18,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="">
+      {/* <main className="">
         <div className='mainbg text-white'>.</div>
         <div className='mainbg layer1'>-</div>
         <div className='mainbg layer2'>.</div>
-      </main>
+      </main> */}
 
-      
+      <SocialNetworks/>
       <Title />
       <PersonalInfo/>
       <Skills />
