@@ -20,7 +20,7 @@
   {
     "name": "React",
     "image": "https://cdn-icons-png.flaticon.com/512/1183/1183672.png",
-    "description": "Maquetado de web con html5",
+    "description": "Component-Based Architecture",
     "id": "4"
   },
   {
@@ -37,6 +37,12 @@
   },
   {
     "name": "Vercel",
+    "image": "",
+    "description": "Maquetado de web con html5",
+    "id": "7"
+  },
+  {
+    "name": "NPM & yarn",
     "image": "",
     "description": "Maquetado de web con html5",
     "id": "7"
