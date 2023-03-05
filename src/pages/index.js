@@ -3,9 +3,7 @@ import Skills from '@/components/Skills'
 import SocialNetworks from '@/components/SocialNetworks'
 import Head from 'next/head'
 import Title from "../components/Title"
-
-
-
+import MyProyects from '@/components/MyProjects'
 
 
 
@@ -24,7 +22,7 @@ export default function Home() {
       <Title />
       <PersonalInfo/>
       <Skills />
-   
+      <MyProyects/>
     </>
   )
 }
