@@ -43,7 +43,7 @@ export default function MyProyects() {
   return (
     <>
     <div className=" flex justify-center ">
-      <p className="text-3xl px-2 py-2 my-6 font-bold ">Mis Proyectos</p>
+      <p className="text-3xl px-2 py-2 my-6 font-semibold font-fontTitle">Mis Proyectos</p>
     </div>
     <div className="p-10 grid gap-2 ">
       {projects.map((project) => (
