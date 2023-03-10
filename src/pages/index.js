@@ -3,7 +3,8 @@ import Skills from '@/components/Skills'
 import SocialNetworks from '@/components/SocialNetworks'
 import Head from 'next/head'
 import Title from "../components/Title"
-import MyProyects from '@/components/MyProjects'
+import Proyect from '@/components/proyects/Project'
+
 
 
 
@@ -17,12 +18,16 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
      
-
+    
       <SocialNetworks/>
       <Title />
       <PersonalInfo/>
       <Skills />
-      <MyProyects/>
+      <Proyect/>
+    
+      
+
+      
     </>
   )
 }
