@@ -1,8 +1,8 @@
-import PersonalInfo from '@/components/PersonalInfo'
-import Skills from '@/components/Skills'
-import SocialNetworks from '@/components/SocialNetworks'
+import PersonalInfo from '@/components/personalinfo/PersonalInfo'
+import Skills from '@/components/skills/Skills'
+import SocialNetworks from '@/components/socialNetworks/SocialNetworks'
 import Head from 'next/head'
-import Title from "../components/Title"
+import Title from "../components/title/Title"
 import Proyect from '@/components/proyects/Project'
 
 

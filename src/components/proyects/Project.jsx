@@ -13,7 +13,7 @@ const Project = ({ project }) => {
       onMouseLeave={() => setHover(false)}
     >
       <div className="flex justify-center text-center items-center">
-        <p className=" text-2xl font-semibold opacity-50">{project.title}</p>
+        <p className="text-2xl font-semibold opacity-50" >{project.title}</p>
         </div>
       
       <div className={`absolute top-0 left-0 w-full h-full bg-black bg-opacity-60 z-10 flex flex-col justify-center items-center ${hover ? "opacity-100" : "opacity-0"} transition duration-500`}>
@@ -43,7 +43,7 @@ export default function MyProyects() {
   return (
     <>
     <div className=" flex justify-center ">
-      <p className="text-3xl px-2 py-2 my-6 font-semibold font-fontTitle">Mis Proyectos</p>
+      <p className="text-3xl px-2 py-2 my-6 font-medium font-fontTitle">Mis Proyectos</p>
     </div>
     <div className="p-10 grid gap-2 ">
       {projects.map((project) => (

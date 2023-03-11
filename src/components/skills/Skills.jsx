@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import dataSkills from "../data/dataSkills.json";
+import dataSkills from "../../data/dataSkills.json";
 
-import Modal from "./Modal";
+import Modal from "../modal/Modal";
 
 function Skills() {
   const [activeModalIndex, setActiveModalIndex] = useState(-1);
@@ -24,7 +24,7 @@ function Skills() {
 
   return (
     <>
-      <div className="flex justify-center text-3xl px-2 py-2 my-6 font-semibold font-fontTitle">Mis herramientas</div>
+      <div className="flex justify-center text-3xl px-2 py-2 my-6 font-medium font-fontTitle">Mis herramientas</div>
 
       <div className="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-4  xl:grid-cols-7 gap-2 item-center p-2 mx-16 z-25 ">
         {datos.map((dato, index) => (
