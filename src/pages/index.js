@@ -17,17 +17,21 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-     
-    
-      <SocialNetworks/>
-      <Title />
-      <PersonalInfo/>
-      <Skills />
-      <Proyect/>
-    
-      
 
-      
+
+      <SocialNetworks />
+      <Title />
+
+      <div className="container mx-auto">
+        <PersonalInfo />
+        <Skills />
+        <Proyect />
+      </div>
+
+
+
+
+
     </>
   )
 }

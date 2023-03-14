@@ -1,18 +1,10 @@
 import React, { useEffect, useState } from "react";
 import dataSkills from "../../data/dataSkills.json";
 
-import Modal from "../modal/Modal";
+
 
 function Skills() {
-  const [activeModalIndex, setActiveModalIndex] = useState(-1);
-
-  function handleOpenModal(index) {
-    setActiveModalIndex(index);
-  }
-
-  function handleCloseModal() {
-    setActiveModalIndex(-1);
-  }
+  
 
   const [datos, setDatos] = useState([]);
 
@@ -24,45 +16,37 @@ function Skills() {
 
   return (
     <>
-      <div className="flex justify-center text-3xl px-2 py-2 my-6 font-medium font-fontTitle">Mis herramientas</div>
+      <div className="my-32">
+        <div className="flex justify-center text-5xl px-2 py-2 my-6 font-medium font-fontTitle">
+          Mis herramientas
+        </div>
 
-      <div className="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-4  xl:grid-cols-7 gap-2 item-center p-2 mx-16 z-25 ">
-        {datos.map((dato, index) => (
-          <div
-            className=" backdrop-filter bg-neutral-50 drop-shadow-2xl  opacity-70 rounded  hover:opacity-100 shadow-xl w-42 h-42  flex justify-center items-center p-4 transition ease-in 800"
-            key={index}
-          >
-            <div className=" ">
-              <img className="w-16 mb-4 " src={dato.image} alt="" />
+        <div className="grid w-2/3 mx-auto xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-4   gap-2 item-center    ">
+          {datos.map((dato, index) => (
+            <div
+              className=" border border-neutral-200 shadow-md hover:shadow-lg hover:border-neutral-300  bg-white   rounded-md   w-42 h-42  flex justify-center  py-12 items-center p-4 transition duration-150"
+              key={index}
+            >
+              <div className="space-y-4 ">
+                <div className="flex justify-center">
+                  <div className="">
+                  <img className="w-16  " src={dato.image} alt="" />
+                  </div>
+                </div>
+                
 
-              <div className="flex justify-center">
-                <p className="text-black absolute bottom-0 font-bold opacity-90">
-                  {dato.name}
-                </p>
+                <div className="flex justify-center">
+                  <p className="text-black  font-bold opacity-90">
+                    {dato.name}
+                  </p>
+                </div>
+
+                
               </div>
-
-              <div className=" absolute bottom-1 left-1">
-                <button
-                  className="bg-gray-600 text-white font-bold hover:bg-gray-800 transition ease-in 800 rounded-full h-8 w-8 "
-                  onClick={() => handleOpenModal(index)}
-                >
-                  +
-                </button>
-                <Modal className=""
-                  isOpen={activeModalIndex === index}
-                  onClose={handleCloseModal}
-                >
-                  <p className="text-black font-semibold">{dato.description}</p>
-                </Modal>
-              </div>
-              
             </div>
-            
-          </div>
-          
-        ))}
+          ))}
+        </div>
       </div>
-      
     </>
   );
 }
