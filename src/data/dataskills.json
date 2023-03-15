@@ -18,7 +18,7 @@
     "id": "3"
   },
   {
-    "name": "React",
+    "name": "React / Next.Js",
     "image": "https://cdn-icons-png.flaticon.com/512/1183/1183672.png",
     "description": "Component-Based Architecture",
     "id": "4"
@@ -43,7 +43,7 @@
   },
   {
     "name": "NPM & yarn",
-    "image": "https://dwglogo.com/wp-content/uploads/2020/04/npm_software_logo_icon.png",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Npm-logo.svg/540px-Npm-logo.svg.png",
     "description": "Maquetado de web con html5",
     "id": "7"
   }
