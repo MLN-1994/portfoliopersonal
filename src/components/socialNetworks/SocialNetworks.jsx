@@ -3,8 +3,8 @@ import { BsLinkedin } from "react-icons/bs";
 
 export default function SocialNetworks() {
   return (
-    <div className="grid grid-cols-12 my-4">
-      <div className="col-start-10 ">
+    <div className="flex justify-end m-6 gap-6">
+      <div className="">
         <a target="_blank" rel="noreferrer" href="https://github.com/" className=" flex justify-center items-center ">
           <BsGithub className="text-5xl"/>
         </a>
