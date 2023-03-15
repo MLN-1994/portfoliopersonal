@@ -29,7 +29,7 @@ export default function Project() {
                 </div>
                <div className="">
                <div className="w-2">
-                  <a href={project.github} target="_blank"> 
+                  <a href={project.github} target="_blank" rel="noreferrer"> 
                   <BsGithub className="text-lg" />
                   </a>
                 </div>
