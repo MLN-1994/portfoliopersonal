@@ -1,4 +1,4 @@
-[
+export default [
   {
     "name": "Html5",
     "image": "https://cdn-icons-png.flaticon.com/512/5968/5968267.png",

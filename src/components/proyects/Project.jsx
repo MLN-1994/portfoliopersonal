@@ -1,5 +1,5 @@
 import React from "react";
-import dataprojects from "./../../data/dataprojects.json";
+import dataprojects from "../../data/dataprojects";
 import { BsGithub } from "react-icons/bs";
 
 export default function Project() {

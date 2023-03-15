@@ -11,7 +11,7 @@ function Footer() {
           </div>
           <div className="w-full md:w-1/3 text-center">
            
-            <p className="text-white">marianolangge@gmail.com</p>
+            <p className="text-white">Email: marianolangge@gmail.com</p>
           </div>
           <div className="w-full md:w-1/3 text-center">
             <p className="text-white">Teléfono: +549-2314610301</p>

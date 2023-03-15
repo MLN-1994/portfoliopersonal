@@ -1,4 +1,4 @@
-[
+export default [
     {
         "title": "E-comerce React",
         "information":"Proyecto  realizado para la entrega final del curso de React de la plataforma CoderHouse. El proyecto fue iniciado con Vite,  sus estilos hechos mediante Tailwindcss y el proyecto fue subido a la nube mediante Vercel",
