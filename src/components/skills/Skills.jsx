@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import dataSkills from "../../data/dataSkills.json";
+import dataSkills from "./../../data/dataSkills.json";
 
 
 

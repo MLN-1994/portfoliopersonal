@@ -1,5 +1,5 @@
 import React from "react";
-import dataprojects from "../../data/dataprojects.json";
+import dataprojects from "./../../data/dataprojects.json";
 import { BsGithub } from "react-icons/bs";
 
 export default function Project() {
@@ -16,7 +16,7 @@ export default function Project() {
               <div className="space-y-2 flex-col flex">
                 <div className="">
                   <img
-                    className="w-full rounded-md border border-neutral-500 h-48 object-fill "
+                    className="w-full rounded-md border border-neutral-300 h-48 object-fill "
                     src={project.image}
                     alt=""
                   />
