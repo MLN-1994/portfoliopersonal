@@ -1,5 +1,6 @@
 import React from "react";
 import dataprojects from "../../data/dataprojects.json";
+import { BsGithub } from "react-icons/bs";
 
 export default function Project() {
   return (
@@ -12,10 +13,10 @@ export default function Project() {
         <div className="grid md:grid-cols-2 w-2/3 mx-auto gap-8 ">
           {dataprojects.map((project) => (
             <>
-              <div className="space-y-2">
+              <div className="space-y-2 flex-col flex">
                 <div className="">
                   <img
-                    className="w-full rounded-md h-48 object-cover"
+                    className="w-full rounded-md border border-neutral-500 h-48 object-fill "
                     src={project.image}
                     alt=""
                   />
@@ -23,9 +24,16 @@ export default function Project() {
                 <div className="text-xl font-bold text-neutral-800">
                   {project.title}
                 </div>
-                <div className=" font-light text-neutral-600">
+                <div className=" font-light text-neutral-600 flex-grow">
                   {project.information}
                 </div>
+               <div className="">
+               <div className="w-2">
+                  <a href={project.link}> 
+                  <BsGithub className="text-lg" />
+                  </a>
+                </div>
+               </div>
               </div>
             </>
           ))}
