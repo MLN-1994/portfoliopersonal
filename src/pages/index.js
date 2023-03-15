@@ -4,6 +4,7 @@ import SocialNetworks from '@/components/socialNetworks/SocialNetworks'
 import Head from 'next/head'
 import Title from "../components/title/Title"
 import Proyect from '@/components/proyects/Project'
+import Footer from '@/components/footer/Footer'
 
 
 
@@ -27,6 +28,7 @@ export default function Home() {
         <Skills />
         <Proyect />
       </div>
+      <Footer/>
 
 
 
