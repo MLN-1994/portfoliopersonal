@@ -24,7 +24,7 @@ export default function Home() {
       <Title />
 
       <div className="container mx-auto">
-        <PersonalInfo />
+        {/* <PersonalInfo /> */}
         <Skills />
         <Proyect />
       </div>

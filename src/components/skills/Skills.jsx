@@ -13,7 +13,7 @@ function Skills() {
 
   return (
     <>
-      <div className="my-32">
+      <div className="my-32 ">
         <div className="flex justify-center text-5xl px-2 py-2 my-6 font-medium font-fontTitle">
           Mis herramientas
         </div>
